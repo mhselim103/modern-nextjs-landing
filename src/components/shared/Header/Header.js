@@ -1,8 +1,10 @@
 import React from "react";
 import { navData } from "./header.data";
-import * as Scroll from "react-scroll";
+// import * as Scroll from "react-scroll";
+import brand from "../../../assets/logo.svg";
+import Link from "next/link";
 import {
-  Link,
+  Link as NavLink,
   Button,
   Element,
   Events,
@@ -10,16 +12,21 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex gap-5 justify-around">
-      <Link>logo</Link>
-      {/* desktop na  */}
+    <div className="flex items-center justify-around gap-5 py-6">
+      <Link href="/">
+        <a>
+          <Image src={brand} alt="logo" className="cursor-pointer" />
+        </a>
+      </Link>
+      {/* desktop nav  */}
       <div>
-        <div className="hidden md:flex gap-5">
+        <div className="hidden gap-5 md:flex">
           {navData.map((item, index) => (
-            <Link
+            <NavLink
               to={item.path}
               key={index}
               smooth={true}
@@ -27,12 +34,14 @@ const Header = () => {
               className="cursor-pointer"
             >
               {item.label}
-            </Link>
+            </NavLink>
           ))}
         </div>
       </div>
       <div>
-        <button className="hidden md:block">Sign In</button>
+        <button className="hidden font-medium border-2 border-custom md:block btn text-custom">
+          Sign In
+        </button>
       </div>
     </div>
   );

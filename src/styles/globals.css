@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   background-color: #ffffff;
+} */
+.hero {
+  background-image: url("/hero-bg.svg");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.left-service {
+  background-image: url("/service-bg.svg");
+  /* background-size: cover; */
+}
+
+@layer components {
+  .btn {
+    @apply w-[150px] h-[50px] rounded-[50px];
+  }
+  .action-btn {
+    @apply btn bg-[#EA3A60];
+  }
 }

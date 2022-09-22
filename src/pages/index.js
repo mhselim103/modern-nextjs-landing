@@ -1,6 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
+import Hero from "../sections/Hero";
+import MeetProduct from "../sections/MeetProduct";
+import QualityFeature from "../sections/QualityFeature";
+import Service from "../sections/Service";
 
 export default function Home() {
-  return <h1 className="text-center">Hello from next js index page </h1>;
+  return (
+    <>
+      <Hero />
+      <MeetProduct />
+      <Service />
+      <QualityFeature />
+    </>
+  );
 }
