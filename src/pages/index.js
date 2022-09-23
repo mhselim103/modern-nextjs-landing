@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import CoreFeature from "../sections/CoreFeature";
 import Hero from "../sections/Hero";
 import MeetProduct from "../sections/MeetProduct";
 import QualityFeature from "../sections/QualityFeature";
@@ -12,6 +13,7 @@ export default function Home() {
       <MeetProduct />
       <Service />
       <QualityFeature />
+      <CoreFeature />
     </>
   );
 }
