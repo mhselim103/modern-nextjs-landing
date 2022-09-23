@@ -30,20 +30,22 @@ const functionData = [
 
 const Function = () => {
   return (
-    <div className="p-12 text-white bg-gradient-to-r from-custom via-red-400 to-pink-500">
-      <div className="text-center">
-        <h1 className="font-medium uppercase">Whats the function</h1>
-        <h1 className="text-4xl font-bold">Lets see how it works</h1>
-      </div>
-      <div className="grid grid-cols-2 gap-5 md:grid-cols-4 justify-items-center my-14">
-        {functionData.map((data) => (
-          <FunctionCard
-            key={data.id}
-            id={data.id}
-            title={data.title}
-            description={data.description}
-          />
-        ))}
+    <div className="p-12 text-white bg-gradient-to-r from-custom via-red-400 to-pink-500 ">
+      <div className="max-w-[1110px] mx-auto">
+        <div className="text-center">
+          <h1 className="font-medium uppercase">Whats the function</h1>
+          <h1 className="text-4xl font-bold">Lets see how it works</h1>
+        </div>
+        <div className="grid grid-cols-2 gap-5 my-10 md:grid-cols-4 justify-items-center">
+          {functionData.map((data) => (
+            <FunctionCard
+              key={data.id}
+              id={data.id}
+              title={data.title}
+              description={data.description}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
