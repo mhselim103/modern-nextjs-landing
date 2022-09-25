@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import ClientSatisfaction from "../sections/ClientSatisfaction";
 import CoreFeature from "../sections/CoreFeature";
 import Function from "../sections/Function";
 import Hero from "../sections/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <CoreFeature />
       <Function />
       <Pricing />
+      <ClientSatisfaction />
     </>
   );
 }

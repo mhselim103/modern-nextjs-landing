@@ -13,7 +13,7 @@ const serviceData = [
       "Get your blood tests delivered at let home collect sample from the victory of the managments.your blood tests.",
   },
   {
-    id: 1,
+    id: 2,
     icon: icon2,
     title: "secure feature",
     description:
