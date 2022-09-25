@@ -12,15 +12,14 @@
   background-repeat: no-repeat;
   object-fit: cover;
 }
-
-.left-service {
-  background-image: url("/service-bg.svg");
-  /* background-size: cover; */
+.active {
+  color: blue;
+  font-weight: 700;
 }
 
 @layer components {
   .btn {
-    @apply w-[150px] h-[50px] rounded-[50px];
+    @apply w-[150px] h-[50px] rounded-full;
   }
   .action-btn {
     @apply btn bg-[#EA3A60];

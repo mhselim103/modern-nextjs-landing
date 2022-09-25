@@ -5,7 +5,7 @@ import PricingCard from "../components/PricingCard";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(true);
   return (
-    <div className="my-20 max-w-[1110px] mx-auto">
+    <div className="my-20 max-w-[1110px] mx-auto" id="pricing">
       <div className="flex flex-col items-center justify-center gap-4 ">
         <h1 className="font-medium uppercase text-custom">Pricing Plan</h1>
         <h1 className="text-4xl font-bold text-heading">

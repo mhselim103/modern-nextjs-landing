@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Layout from "../components/Layout";
 import ClientSatisfaction from "../sections/ClientSatisfaction";
 import CoreFeature from "../sections/CoreFeature";
 import Function from "../sections/Function";
@@ -12,7 +13,7 @@ import Subscribe from "../sections/Subscribe";
 
 export default function Home() {
   return (
-    <>
+    <Layout>
       <Hero />
       <MeetProduct />
       <Service />
@@ -22,6 +23,6 @@ export default function Home() {
       <Pricing />
       <ClientSatisfaction />
       <Subscribe />
-    </>
+    </Layout>
   );
 }

@@ -2,7 +2,10 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-w-6xl gap-6 p-12 mx-auto text-white bg-gradient-to-r from-custom via-red-400 to-pink-500">
+    <div
+      className="flex flex-col items-center justify-center max-w-6xl gap-6 p-12 mx-auto text-white bg-gradient-to-r from-custom via-red-400 to-pink-500"
+      id="contact"
+    >
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="text-4xl">Subscribe to our Blog</h1>
         <p className="text-base">Get notified to our blogs on your email</p>

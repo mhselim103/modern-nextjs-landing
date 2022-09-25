@@ -30,7 +30,10 @@ const functionData = [
 
 const Function = () => {
   return (
-    <div className="p-12 text-white bg-gradient-to-r from-custom via-red-400 to-pink-500 ">
+    <div
+      className="p-12 text-white bg-gradient-to-r from-custom via-red-400 to-pink-500 "
+      id="function"
+    >
       <div className="max-w-[1110px] mx-auto">
         <div className="text-center">
           <h1 className="font-medium uppercase">Whats the function</h1>

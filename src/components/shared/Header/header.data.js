@@ -1,6 +1,8 @@
 export const navData = [
   { label: "Home", path: "home" },
-  { label: "Advertise", path: "advertise" },
-  { label: "Support", path: "support" },
+  { label: "Feature", path: "feature" },
+  { label: "Function", path: "function" },
+  { label: "Pricing", path: "pricing" },
+  { label: "Testimonial", path: "testimonial" },
   { label: "Contact", path: "contact" },
 ];

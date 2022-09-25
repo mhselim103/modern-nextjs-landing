@@ -2,7 +2,7 @@ import MeetProductCard from "../components/MeetProductCard";
 import { meetProduct } from "../sections/MeetProduct";
 const QualityFeature = () => {
   return (
-    <div className="my-44 max-w-[1113px] mx-auto">
+    <div className="my-44 max-w-[1113px] mx-auto" id="feature">
       <div className="flex flex-col items-center justify-center">
         <p className="text-sm font-medium text-custom">Quality Feature</p>
         <h1 className="text-4xl font-medium text-heading">
