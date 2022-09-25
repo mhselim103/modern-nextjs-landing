@@ -8,6 +8,7 @@ import MeetProduct from "../sections/MeetProduct";
 import Pricing from "../sections/Pricing";
 import QualityFeature from "../sections/QualityFeature";
 import Service from "../sections/Service";
+import Subscribe from "../sections/Subscribe";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Function />
       <Pricing />
       <ClientSatisfaction />
+      <Subscribe />
     </>
   );
 }

@@ -3,9 +3,9 @@ import banner from "../assets/banner-thumb.png";
 
 const Hero = () => {
   return (
-    <>
+    <div className="max-w-[80vw] mx-auto">
       <div className="mt-[50px] hero flex flex-col justify-center items-center">
-        <h1 className="font-bold text-center text-7xl max-w-[814px] mx-auto text-[#0F2137]">
+        <h1 className="font-bold text-center text-4xl md:text-7xl max-w-[814px] mx-auto text-[#0F2137]">
           Top Quality Digital Products To Explore
         </h1>
         <p className="max-w-lg mx-auto text-lg leading-8 text-center text-[#02073E] mt-7">
@@ -27,7 +27,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

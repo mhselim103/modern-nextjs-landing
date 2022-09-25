@@ -16,7 +16,7 @@ import "swiper/css/scrollbar";
 
 const ClientSatisfaction = () => {
   return (
-    <div className="px-20 my-12">
+    <div className="max-w-[80vw] mx-auto my-12">
       <div className="flex flex-col items-center justify-center gap-3 mb-12">
         <h1 className="text-lg font-medium uppercase text-custom">
           Testimonial

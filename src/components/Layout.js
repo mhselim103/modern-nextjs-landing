@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./shared/Footer/Footer";
 import Header from "./shared/Header/Header";
 
 const Layout = ({ children }) => {
@@ -9,7 +10,7 @@ const Layout = ({ children }) => {
       </header>
       <main>{children}</main>
       <footer>
-        <h1>Footer</h1>
+        <Footer />
       </footer>
     </>
   );

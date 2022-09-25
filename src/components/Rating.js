@@ -6,13 +6,13 @@ const Rating = ({ rating }) => {
   for (let i = 0; i < 5; i++) {
     if (i < rating) {
       totalRating.push(
-        <li className="text-custom">
+        <li className="text-custom " key={i}>
           <FaStar />
         </li>
       );
     } else {
       totalRating.push(
-        <li className="text-black">
+        <li className="text-black" key={i}>
           <FaStar />
         </li>
       );

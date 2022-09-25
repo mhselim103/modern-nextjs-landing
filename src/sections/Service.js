@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serviceBanner from "../assets/service-thumb.png";
+import serviceBanner from "../assets/services/service-left.svg";
 import icon from "../assets/services/smart.svg";
 import icon2 from "../assets/services/secure.svg";
 import ServiceCard from "../components/ServiceCard";
@@ -31,14 +31,6 @@ const Service = () => {
             width={500}
             height={400}
             alt="service Banner"
-          />
-        </div>
-        <div className="absolute lg:left-[-123px] lg:bottom-[-44px] -z-10 hidden lg:block ">
-          <Image
-            src="/service-bg.svg"
-            width={466}
-            height={455}
-            alt="shapebox"
           />
         </div>
       </div>

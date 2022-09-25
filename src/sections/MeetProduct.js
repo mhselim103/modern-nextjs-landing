@@ -37,7 +37,7 @@ export const meetProduct = [
 
 const MeetProduct = () => {
   return (
-    <div className="my-32">
+    <div className="max-w-[80vw] mx-auto">
       <div className="flex flex-col items-center justify-center">
         <p className="text-sm font-medium uppercase text-custom ">
           Whats the function
@@ -47,7 +47,7 @@ const MeetProduct = () => {
         </h1>
       </div>
 
-      <div className="max-w-[1110px] grid grid-cols-2 md:grid-cols-4 mx-auto gap-5 mt-20">
+      <div className="grid grid-cols-2 gap-5 mt-20 md:grid-cols-4">
         {meetProduct?.map((product) => (
           <MeetProductCard
             key={product.id}
