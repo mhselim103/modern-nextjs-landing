@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { navData } from "./header.data";
 import brand from "../../../assets/logo.svg";
-import Link from "next/link";
+import * as Scroll from "react-scroll";
 import {
   Link as NavLink,
   Button,
@@ -29,10 +29,11 @@ const Header = () => {
                 to={item.path}
                 key={index}
                 smooth={true}
-                ffset={-50}
+                // ffset={-200}
                 duration={500}
                 activeClass="active"
                 className="cursor-pointer"
+                spyThrottle={500}
               >
                 {item.label}
               </NavLink>
